@@ -8,7 +8,7 @@ function printBadges(array){
   return array;
 }
 
-function tailsNeverFails() {
+function tails() {
   let tails = 0;
   if (Math.random() >= 0.5){
     tails++;
@@ -17,3 +17,5 @@ function tailsNeverFails() {
   } 
   
 }
+
+function tailsNever
