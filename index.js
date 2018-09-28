@@ -9,5 +9,5 @@ function printBadges(array){
 }
 
 function tailsNeverFails() {
-  
+  Math.random() 
 }
