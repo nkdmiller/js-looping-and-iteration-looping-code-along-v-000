@@ -9,5 +9,11 @@ function printBadges(array){
 }
 
 function tailsNeverFails() {
-  Math.random() 
+  let tails = 0;
+  if (Math.random() >= 0.5){
+    tails++;
+  }else{
+    return tails;
+  } 
+  
 }
