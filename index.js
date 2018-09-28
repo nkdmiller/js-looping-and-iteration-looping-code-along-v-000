@@ -10,14 +10,13 @@ function printBadges(array){
 
 function tails() {
   let tails = 0;
-  if (Math.random() >= 0.5){
+  while (Math.random() >= 0.5){
     tails++;
-  }else{
     return tails;
   } 
   
 }
 
 function tailsNeverFails(){
-  while(tails());
+
 }
