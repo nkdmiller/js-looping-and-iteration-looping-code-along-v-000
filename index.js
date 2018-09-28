@@ -8,15 +8,12 @@ function printBadges(array){
   return array;
 }
 
-function tails() {
+function tailsNeverFails() {
   let tails = 0;
   while (Math.random() >= 0.5){
     tails++;
-    return tails;
+    
   } 
-  
+  return tails;
 }
 
-function tailsNeverFails(){
-
-}
