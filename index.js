@@ -5,4 +5,5 @@ function printBadges(array){
     console.log("Welcome " + array[count] + "! You are employee #" + (count+1) + ".");
     
   }
+  return array;
 }
