@@ -14,6 +14,6 @@ function tailsNeverFails() {
     tails++;
     
   } 
-  console.log( tails)
+  console.log( "You got tails)
 }
 
