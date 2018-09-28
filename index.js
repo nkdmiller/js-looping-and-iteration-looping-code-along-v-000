@@ -18,4 +18,6 @@ function tails() {
   
 }
 
-function tailsNever
+function tailsNeverFails(){
+  while(tails());
+}
