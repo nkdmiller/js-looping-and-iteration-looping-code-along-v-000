@@ -7,3 +7,5 @@ function printBadges(array){
   }
   return array;
 }
+
+function tails
